@@ -7,9 +7,17 @@ Some of my data science and machine learning projects using python packages such
 
 ## [Time-Series Forecasting](https://github.com/uditgt/TimeSeries)
 * Forecasting Daily Bike Shares data, using different models - Prophet, SARIMAX, Holt-Winters, TBATS, Tensorflow structural time series. For this dataset, a combination of Prophet + XGBoost performs the best.
+<p align="center">
+  <img width="600" height="300" src="https://github.com/uditgt/TimeSeries/blob/main/assets/DailyBikeSharing%20-%20fitted.png">
+</p>
+
 
 ## [PCA - Relative Value Trading](https://github.com/uditgt/Projects/blob/main/PCA%20-%20Relative%20Value%20Trading/PCA%20-%20Relative%20Value%20Trading.ipynb)
 * This is a PCA driven (unsupervised) model, which uses PCA to derive latent/state variables signifying structural movements to the interest rates at various term points along the yield curve. By using the top 3 PCA, we are in essense able to separate Noise from Signal. This can be used to build a relative value trading strategy - which is market neutral and earns alpha solely from the mispricing implied by mean-reverting noise. Or determine opportunate entry point in the market.
+* Relative value changing over time for the 10yr term point
+<p align="center">
+  <img width="600" height="300" src="https://github.com/uditgt/Projects/blob/main/PCA%20-%20Relative%20Value%20Trading/rv_10yrterm.png">
+</p>
 
 
 ## [Tutorial Notebooks](https://github.com/uditgt/Data_science_python)

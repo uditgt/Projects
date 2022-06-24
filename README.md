@@ -11,6 +11,13 @@ Some of my data science and machine learning projects using python packages such
   <img width="600" height="300" src="https://github.com/uditgt/TimeSeries/blob/main/assets/DailyBikeSharing%20-%20fitted.png">
 </p>
 
+## [Neural Network - MNIST digits dataset](https://github.com/uditgt/Projects/blob/main/NN%20-%20MNIST/NN%20-%20MNIST%20dataset.ipynb)
+* Built a multi-class neural network, usign the preferred architecture which creates lower numerical precision error. The NN uses 'linear' activation in the last layer with the loss function directly using the 'logit' output created, in places of creating/ using softmax output. This does require one additional step at the time of prediction - that of converting logit output to probabilities to make them more interpretable. 
+* Built a simple 3-layer neural network that achieves over 95% accuracy over the test set.
+<p align="center">
+  <img width="300" height="300" src="https://github.com/uditgt/Projects/blob/main/NN%20-%20MNIST/MNIST_test_op.png">
+</p>
+
 
 ## [PCA - Relative Value Trading](https://github.com/uditgt/Projects/blob/main/PCA%20-%20Relative%20Value%20Trading/PCA%20-%20Relative%20Value%20Trading.ipynb)
 * This is a PCA driven (unsupervised) model, which uses PCA to derive latent/state variables signifying structural movements to the interest rates at various term points along the yield curve. By using the top 3 PCA, we are in essense able to separate Noise from Signal. This can be used to build a relative value trading strategy - which is market neutral and earns alpha solely from the mispricing implied by mean-reverting noise. Or determine opportunate entry point in the market.
